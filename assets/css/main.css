@@ -250,6 +250,10 @@ label {
 		margin: 0 0 2rem 0;
 	}
 
+	p.first {
+		margin: 0;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #2d4772;
 		font-weight: 2500;
@@ -1334,8 +1338,8 @@ label {
 		/* background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%); */
 		/* background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%); */
 		/* background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%); */
-		/* background-image: radial-gradient(#d3b484 0%, rgba(44, 160, 73, 0) 55%); */
-		/* background-color: #d3b484; */
+		/* background-image: radial-gradient(#d1a25cda 0%, rgba(44, 160, 73, 0) 55%); */
+		/* background-color: #d1a25cda; */
 		max-width: 100%;
 		text-align: center;
 	}
@@ -1430,7 +1434,7 @@ label {
 			list-style: none;
 			padding-left: 0;
 			border: solid 3px #0a3823;
-			border-radius: 4px;
+			border-radius: 3px;
 		}
 
 			#header nav ul li {
@@ -1447,7 +1451,7 @@ label {
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
+					padding: 0 1.25rem 0 1.25rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
@@ -1632,7 +1636,7 @@ label {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: #d3b384e0;
+			background-color: #d1a25cda;
 			border-radius: 4px;
 			opacity: 0;
 		}
@@ -1725,7 +1729,14 @@ label {
 		#footer .copyright {
 			letter-spacing: 0.1rem;
 			font-size: 0.4rem;
-			opacity: 0.5;
+			opacity: 0.4;
+			margin-bottom: 0;
+			text-transform: uppercase;
+		}
+		#footer .photo {
+			letter-spacing: 0.1rem;
+			font-size: 0.4rem;
+			opacity: 1;
 			margin-bottom: 0;
 			text-transform: uppercase;
 		}
