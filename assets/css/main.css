@@ -258,6 +258,10 @@ label {
 		margin: 0 1rem 1rem 1rem;
 	}
 
+	p.third {
+		margin: 0rem 0.5rem 0rem 0.5rem;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #2d4772;
 		font-weight: 2500;
