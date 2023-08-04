@@ -256,11 +256,12 @@ label {
 	}
 
 	p.second {
-		margin: 0 1rem 1rem 1rem;
+		margin: 0 0.5rem 1rem 0.5rem;
 	}
 
 	p.third {
 		margin: 0rem 0.5rem 0rem 0.5rem;
+		letter-spacing: 0.05rem !important;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -285,9 +286,9 @@ label {
 		color: #2d4772;
 		font-weight: 2500;
 		line-height: 1.5;
-		margin: 0 1rem 1rem 1rem;
+		margin: 0 0.5rem 0.3rem 0.5rem;
 		text-transform: uppercase;
-		letter-spacing: 0.12rem;
+		letter-spacing: 0.05rem !important;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1266,7 +1267,7 @@ label {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/guate_crop.jpg");
+			background-image: url("../../images/guate_crop4.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
