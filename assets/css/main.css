@@ -1,6 +1,6 @@
 @import url(fontawesome-all.min.css);
 /* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600"); */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Petit+Formal+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap&family=Petit+Formal+Script&display=swap");
 
 /*
 	Dimension by HTML5 UP
@@ -218,7 +218,7 @@ label {
 	} */
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: 'Noto Serif Display', serif;
+		font-family: 'Aboreto', cursive;
 		font-weight: 800;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -251,8 +251,8 @@ label {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
-		font-weight: 600;
+		color: #2d4772;
+		font-weight: 2500;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
@@ -1156,7 +1156,7 @@ label {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #1b1f22 !important;
+			color: #010830 !important;
 			font-weight: 600;
 		}
 
@@ -1216,7 +1216,7 @@ label {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			/* background-image: linear-gradient(to top, rgba(197, 201, 211, 0.5), rgba(203, 209, 219, 0.5)), url("../../images/overlay.png"); */
 			background-size: auto,
  256px 256px;
 			background-position: center,
@@ -1235,7 +1235,7 @@ label {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bike.jpg");
+			background-image: url("../../images/guate_crop.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1331,10 +1331,11 @@ label {
 		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		background-image: radial-gradient(rgba(133, 156, 137, 0.25) 25%, rgba(44, 160, 73, 0) 55%);
+		/* background-image: -moz-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%); */
+		/* background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%); */
+		/* background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%); */
+		/* background-image: radial-gradient(#d3b484 0%, rgba(44, 160, 73, 0) 55%); */
+		/* background-color: #d3b484; */
 		max-width: 100%;
 		text-align: center;
 	}
@@ -1346,6 +1347,7 @@ label {
 			transition: opacity 0.325s ease-in-out;
 			position: relative;
 			margin-top: 3.5rem;
+			background-color: #d1a25cda;
 		}
 
 			#header > *:before {
@@ -1353,10 +1355,10 @@ label {
 				display: block;
 				position: absolute;
 				top: calc(-3.5rem - 1px);
-				left: calc(50% - 1px);
-				width: 1px;
+				left: calc(50% - 3px);
+				width: 3px;
 				height: calc(3.5rem + 1px);
-				background: #ffffff;
+				background: #0a382300;
 			}
 
 		#header > :first-child {
@@ -1385,9 +1387,12 @@ label {
 
 		#header .content {
 			border-style: solid;
-			border-color: #ffffff;
-			border-top-width: 1px;
-			border-bottom-width: 1px;
+			border-color: #0a3823;
+			border-top-width: 3px;
+			border-bottom-width: 3px;
+			border-right-width: 3px;
+			border-left-width: 3px;
+			border-radius: 8px;
 			max-width: 100%;
 		}
 
@@ -1424,13 +1429,13 @@ label {
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
-			border: solid 1px #ffffff;
+			border: solid 3px #0a3823;
 			border-radius: 4px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 1px #ffffff;
+				border-left: solid 3px #0a3823;
 			}
 
 				#header nav ul li:first-child {
@@ -1462,10 +1467,10 @@ label {
 			display: block;
 			position: absolute;
 			top: 0;
-			left: calc(50% - 1px);
-			width: 1px;
+			left: calc(50% - 3px);
+			width: 3px;
 			height: 100%;
-			background: #ffffff;
+			background: #0a3823;
 		}
 
 		#header nav.use-middle ul li.is-middle {
@@ -1562,7 +1567,7 @@ label {
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 1px #ffffff;
+						border-top: solid 3px #0a3823;
 					}
 
 						#header nav ul li:first-child {
@@ -1627,7 +1632,7 @@ label {
 			position: relative;
 			width: 40rem;
 			max-width: 100%;
-			background-color: rgba(27, 31, 34, 0.85);
+			background-color: #d3b384e0;
 			border-radius: 4px;
 			opacity: 0;
 		}
