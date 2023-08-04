@@ -254,6 +254,10 @@ label {
 		margin: 0;
 	}
 
+	p.second {
+		margin: 0 1rem 1rem 1rem;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #2d4772;
 		font-weight: 2500;
@@ -261,6 +265,24 @@ label {
 		margin: 0 0 1rem 0;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
+	}
+	
+	h1.hd {
+		color: #2d4772;
+		font-weight: 2500;
+		line-height: 1.5;
+		margin: 0 0 1rem 0;
+		text-transform: uppercase;
+		letter-spacing: 0.12rem;
+	}
+
+	h2.hd {
+		color: #2d4772;
+		font-weight: 2500;
+		line-height: 1.5;
+		margin: 0 1rem 1rem 1rem;
+		text-transform: uppercase;
+		letter-spacing: 0.12rem;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
