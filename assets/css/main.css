@@ -1418,13 +1418,13 @@ label {
 			}
 
 		#header .content {
-			border-style: solid;
+			border-style: none;
 			border-color: #0a3823;
 			border-top-width: 3px;
 			border-bottom-width: 3px;
 			border-right-width: 3px;
 			border-left-width: 3px;
-			border-radius: 8px;
+			border-radius: 3px;
 			max-width: 100%;
 		}
 
@@ -1460,14 +1460,14 @@ label {
 			display: flex;
 			margin-bottom: 0;
 			list-style: none;
-			padding-left: 0;
-			border: solid 3px #0a3823;
+			padding-left:0;
+			border: none 3px #0a3823;
 			border-radius: 3px;
 		}
 
 			#header nav ul li {
 				padding-left: 0;
-				border-left: solid 3px #0a3823;
+				border-left: none 3px #0a3823;
 			}
 
 				#header nav ul li:first-child {
@@ -1487,7 +1487,7 @@ label {
 				}
 
 					#header nav ul li a:hover {
-						background-color: rgba(255, 255, 255, 0.075);
+						background-color: rgba(255, 255, 255, 0.089);
 					}
 
 					#header nav ul li a:active {
@@ -1500,7 +1500,7 @@ label {
 			position: absolute;
 			top: 0;
 			left: calc(50% - 3px);
-			width: 3px;
+			width: 0px;
 			height: 100%;
 			background: #0a3823;
 		}
@@ -1599,7 +1599,7 @@ label {
 
 					#header nav ul li {
 						border-left: 0;
-						border-top: solid 3px #0a3823;
+						border-top: none 3px #0a3823;
 					}
 
 						#header nav ul li:first-child {
